@@ -9,8 +9,9 @@ public class TesteFatorial {
 		Combinatoria comb = new Combinatoria();
 		List<Integer> lista = Arrays.asList(1,2,3,4,5);
 		List<Character> arr = Arrays.asList('A','M','O','R','A');
+		List<String> arr2 = Arrays.asList("A","B","C","D");
 		
-		System.out.println(comb.combination(lista, 3));
+		System.out.println(comb.permutation(lista));
 
 	}
 
